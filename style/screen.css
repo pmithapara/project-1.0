@@ -1,0 +1,391 @@
+/* Golden Section Modular Scale 
+https://www.modularscale.com/?26&px&1.6 */
+
+html {
+  font-family: 'Ubuntu', Verdana, sans-serif;            	
+  font-size: 1.625em; /* 26px */
+  line-height: 1.182em; /* 26px / ~ 120& */
+}
+
+body {
+  background-image: url("images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: 767px 1350px;   
+  width: 70%;
+  margin: 0 auto;	
+}
+  
+#main_title {
+  padding-top: 10px;	
+  font-size: 4.16em; /* 66.56 */
+  font-family: 'Ubuntu', Verdana, sans-serif;
+  font-weight: bold;
+  color: #F0D7D7;
+}
+  
+#first_name {
+  padding: .6em; 
+  font-family: 'Ubuntu', Verdana, sans-serif;	
+  color: #EAE1E1;	
+}
+  
+#last_name {
+  padding: .6em;
+  font-family: 'Ubuntu', Verdana, sans-serif;	
+  color: #EAE1E1;		
+}
+
+#email {
+  padding: .6em;	
+  font-family: 'Ubuntu', Verdana, sans-serif;	
+  color: #EAE1E1;	
+}
+
+#address {
+  padding: .6em;	
+  font-family: 'Ubuntu', Verdana, sans-serif;	
+  color: #EAE1E1;	
+}
+  
+#phone {
+  padding: .6em;	
+  font-family: 'Ubuntu', Verdana, sans-serif;	
+  color: #EAE1E1;	
+}
+  
+#dob {
+  padding: .6em;	
+  font-family: 'Ubuntu', Verdana, sans-serif;	
+  color: #EAE1E1;	
+}
+  
+input[type=text] {
+  width: 350px;  
+  padding: 13px 8px;
+  margin: 8px 0;	
+  border-radius: 15px 50px 30px 30px;
+  background-color: #f8f8f8;
+  border: solid #EAE1E1;     
+  font-size: 1.3em;
+}
+    
+input[type=text]:focus {
+  background-color: #F0D7D7;     
+}
+
+input[type=email] {
+  width: 350px;   
+  padding: 13px 8px;
+  margin: 8px 0;	
+  border-radius: 15px 50px 30px 30px;
+  background-color: #f8f8f8;
+  border: solid #EAE1E1;
+  font-size: 1.3em;	
+}
+
+input[type=email]:focus {
+  background-color: #F0D7D7;     
+}
+
+input[type=tel] {
+  width: 350px;   
+  padding: 13px 8px;
+  margin: 8px 0;	
+  border-radius: 15px 50px 30px 30px;
+  background-color: #f8f8f8;
+  border: solid #EAE1E1; 
+  font-size: 1.3em;	
+}
+
+input[type=tel]:focus {
+  background-color: #F0D7D7;     
+}
+
+input[type=submit] {
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  border: none;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 23px;
+  margin: 50px 10px;
+  cursor: pointer;  	
+  background-color: white;
+  color: black;
+  border: 2px solid #555555; 	
+  font-family: 'Ubuntu', Verdana, sans-serif; 
+}
+    
+input[type=submit]:hover {
+  background-color: #555555;
+  color: white;	
+}
+
+ 
+@media only screen and (min-width: 768px) {
+ 
+  html {
+  font-family: 'Ubuntu', Verdana, sans-serif;            	
+  font-size: 1.5em; /* 24px */
+  line-height: 1.182em; /* 26px / ~ 120& */
+  } 
+  body {
+  background-image: url("images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: 1000px 1100px;
+  }                 
+    
+  #main_title {
+  padding: 10px;	
+  font-size: 3.84em; /* 61.44px */
+  font-family: 'Ubuntu', Verdana, sans-serif;
+  font-weight: bold;
+  color: #F0D7D7;
+  }
+  
+  #first_name {
+  padding: .3em; 
+  font-family: 'Ubuntu', Verdana, sans-serif;	
+  font-size: 1.2em;
+  color: #EAE1E1;	
+  }
+  
+  #last_name {
+  padding: .3em;
+  font-family: 'Ubuntu', Verdana, sans-serif;	
+  font-size: 1.2em;
+  color: #EAE1E1;		
+  }
+  
+  #email {
+  padding: .3em;	
+  font-family: 'Ubuntu', Verdana, sans-serif;	
+  font-size: 1.2em;
+  color: #EAE1E1;	
+  }
+
+  #address {
+  padding: .3em;	
+  font-family: 'Ubuntu', Verdana, sans-serif;	
+  font-size: 1.2em;
+  color: #EAE1E1;	
+  }
+
+  #phone {
+  padding: .3em;	
+  font-family: 'Ubuntu', Verdana, sans-serif;	
+  font-size: 1.2em;
+  color: #EAE1E1;	
+  }
+
+  #dob {
+  padding: .3em;	
+  font-family: 'Ubuntu', Verdana, sans-serif;	
+  font-size: 1.2em;
+  color: #EAE1E1;	
+  }
+
+  input[type=text] {
+  width: 550px;  
+  padding: 7px 5px;
+  margin: 8px 0;	
+  border-radius: 15px 50px 30px 30px;
+  background-color: #f8f8f8;
+  border: solid #EAE1E1;     
+  font-size: 1.3em;
+  }
+  
+  input[type=text]:focus {
+  background-color: #F0D7D7;     
+  }
+
+  input[type=email] {
+  width: 550px;   
+  padding: 7px 5px;
+  margin: 8px 0;	
+  border-radius: 15px 50px 30px 30px;
+  background-color: #f8f8f8;
+  border: solid #EAE1E1;
+  font-size: 1.3em;	
+  }
+  
+  input[type=email]:focus {
+  background-color: #F0D7D7;     
+  }
+  
+  input[type=tel] {
+  width: 550px;   
+  padding: 7px 5px;
+  margin: 8px 0;	
+  border-radius: 15px 50px 30px 30px;
+  background-color: #f8f8f8;
+  border: solid #EAE1E1; 
+  font-size: 1.3em;	
+  }
+  
+  input[type=tel]:focus {
+  background-color: #F0D7D7;     
+  }
+  
+  input[type=submit] {
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  border: none;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 39px 10px;
+  cursor: pointer;  	
+  background-color: white;
+  color: black;
+  border: 2px solid #555555; 	
+  font-family: 'Ubuntu', Verdana, sans-serif; 
+  }
+  
+  input[type=submit]:hover {
+  background-color: #555555;
+  color: white;	
+  }	
+} 
+   
+ 
+@media only screen and (min-width: 992px) {
+   
+  html {
+  font-family: 'Ubuntu', Verdana, sans-serif;            	
+  font-size: 1.313em; /* 21px */
+  line-height: 1.182em; /* 26px / ~ 120& */
+  }	 
+  	 
+  body {
+  background-image: url("images/background.jpg");        
+  background-repeat: no-repeat;
+  background-size: 1536px 800px;
+  width: 75%;	
+  }
+  	
+  #main_title {
+  padding: 10px;	
+  font-size: 4.376em; /* ~ 70px */
+  font-family: 'Ubuntu', Verdana, sans-serif;
+  font-weight: bold;
+  color: #F0D7D7;
+  }
+  
+  #first_name {
+  padding: .3em; 
+  font-family: 'Ubuntu', Verdana, sans-serif;	
+  font-size: 1em;
+  color: #EAE1E1;
+  font-weight: bold;	
+  }
+  
+  #last_name {
+  padding: .3em; 
+  font-family: 'Ubuntu', Verdana, sans-serif;	
+  font-size: 1em;
+  color: #EAE1E1;
+  font-weight: bold;
+  }
+  
+  #email {
+  padding: .3em; 
+  font-family: 'Ubuntu', Verdana, sans-serif;	
+  font-size: 1em;
+  color: #EAE1E1;
+  font-weight: bold;	
+  }
+
+  #address {
+  padding: .3em; 
+  font-family: 'Ubuntu', Verdana, sans-serif;	
+  font-size: 1em;
+  color: #EAE1E1;
+  font-weight: bold;	
+  }
+  
+  #phone {
+  padding: .3em; 
+  font-family: 'Ubuntu', Verdana, sans-serif;	
+  font-size: 1em;
+  color: #EAE1E1;
+  font-weight: bold;	
+  }
+  
+  #dob {
+  padding: .3em; 
+  font-family: 'Ubuntu', Verdana, sans-serif;	
+  font-size: 1em;
+  color: #EAE1E1;
+  font-weight: bold;
+  }	
+	
+  input[type=text] {
+  width: 1000px;  
+  padding: 4px 4px;
+  margin: 8px 0;	
+  border-radius: 15px 50px 30px 30px;
+  background-color: #f8f8f8;
+  border: solid #EAE1E1;     
+  font-size: 1.3em;
+  }
+  
+  input[type=text]:focus {
+  background-color: #F0D7D7;     
+  }		
+
+  input[type=email] {
+  width: 1000px;  
+  padding: 4px 4px;
+  margin: 8px 0;	
+  border-radius: 15px 50px 30px 30px;
+  background-color: #f8f8f8;
+  border: solid #EAE1E1;     
+  font-size: 1.3em;
+  }
+	
+  input[type=email]:focus {
+  background-color: #F0D7D7;     
+  }	
+
+  input[type=tel] {
+  width: 1000px;  
+  padding: 4px 4px;
+  margin: 8px 0;	
+  border-radius: 15px 50px 30px 30px;
+  background-color: #f8f8f8;
+  border: solid #EAE1E1;     
+  font-size: 1.3em;
+  }
+	
+  input[type=tel]:focus {
+  background-color: #F0D7D7;     
+  }	
+  
+  input[type=submit] {
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  border: none;
+  padding: 10px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  margin: 10px 10px;
+  cursor: pointer;  	
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;  
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);	
+  font-family: 'Ubuntu', Verdana, sans-serif;  
+  }	
+ 
+  input[type=submit]:hover {
+  background-color: #555555;
+  color: white;	
+  }  	
+}
